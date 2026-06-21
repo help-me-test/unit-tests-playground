@@ -1,5 +1,5 @@
-import { test, expect } from 'vitest';
-import { add, subtract, multiply, divide, factorial, isPrime } from './math.mjs';
+const { test, expect } = require('vitest');
+const { add, subtract, multiply, divide, factorial, isPrime } = require('./math');
 
 test('add', () => {
   expect(add(2, 3)).toBe(5);
