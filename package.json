@@ -1,0 +1,21 @@
+{
+  "name": "unit-tests-playground",
+  "version": "1.0.0",
+  "description": "Unit test playground — jest, vitest, mocha, pytest. In HelpMeTest terminal VM all runners are pre-installed globally; no npm install needed.",
+  "type": "module",
+  "scripts": {
+    "test:jest": "jest --no-coverage",
+    "test:vitest": "vitest run",
+    "test:mocha": "mocha math.mocha.js",
+    "test:pytest": "pytest test_math.py -v"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "vitest": "^2.0.0",
+    "mocha": "^10.0.0"
+  },
+  "jest": {
+    "testMatch": ["**/math.test.js"],
+    "transform": {}
+  }
+}
