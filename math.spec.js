@@ -1,4 +1,3 @@
-const { test, expect } = require('vitest');
 const { add, subtract, multiply, divide, factorial, isPrime } = require('./math');
 
 test('add', () => {
